@@ -1,0 +1,33 @@
+{
+  "name": "@profimedica/ajuro-tools",
+  "version": "0.0.1",
+  "description": "Angular 4 development tools",
+  "main": "main.js",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profimedica/ajuro-tools.git"
+  },
+  "keywords": [
+    "advanced",
+    "angular",
+    "development",
+    "tools"
+  ],
+  "author": "Cumpanasu Florin <startflorin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/profimedica/ajuro-tools/issues"
+  },
+  "homepage": "https://github.com/profimedica/ajuro-tools#readme",
+  "devDependencies": {
+    "@angular/cli": "^1.4.9",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
