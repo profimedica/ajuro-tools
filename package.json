@@ -1,13 +1,13 @@
 {
   "name": "@profimedica/ajuro-tools",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Angular 4 development tools",
   "main": "main.js",
   "engines": {
     "node": ">=4.2.4"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register --watch --reporter spec test/test.ts"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,11 @@
   "homepage": "https://github.com/profimedica/ajuro-tools#readme",
   "devDependencies": {
     "@angular/cli": "^1.4.9",
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.44",
     "chai": "^4.1.2",
-    "mocha": "^3.5.3"
+    "mocha": "^3.5.3",
+    "ts-node": "^3.3.0",
+    "typings": "^2.1.1"
   }
 }

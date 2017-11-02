@@ -1,0 +1,46 @@
+Publish:
+	Increase version in .\package.json
+	npm publish:
+		> npm publish
+		+ @profimedica/ajuro-tools@0.0.2
+Git:
+	git add .	// no deleted
+	git add -u	// updated
+	git add A	// all
+	
+Test: 
+Read: https://journal.artfuldev.com/write-tests-for-typescript-projects-with-mocha-and-chai-in-typescript-86e053bdb2b6
+
+	One-time:
+		npm install -g ts-node
+		npm install -g typescript
+
+	One-time:
+		npm install mocha chai ts-node -g
+		npm install mocha chai ts-node --save-dev	
+
+	One-time install type definitions:
+		npm install typings -g
+		npm install typings --save-dev
+
+	One-time install type definitions:
+		npm install @types/chai @types/mocha --save-dev
+	Instead of:
+		typings install dt~mocha --global --save
+		typings install npm~chai --save
+
+	One-time the reporter:
+		npm install ts-node --save-dev
+		
+	One-time the ts mocha:
+		npm i -g ts-mocha
+
+Exception: 
+	Unable to compile TypeScript Cannot find type definition file for 'ts-node'.
+Solve: 
+	Remove it from tsconfig.json types array
+
+Exception: 
+	this._reporter is not a constructor
+Solve: 
+	Remove it from tsconfig.json types array
