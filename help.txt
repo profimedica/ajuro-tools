@@ -4,12 +4,23 @@ Publish:
 		> npm publish
 		+ @profimedica/ajuro-tools@0.0.2
 Git:
+	https://try.github.io/levels/1/challenges/1
+	
 	git add .	// no deleted
 	git add -u	// updated
 	git add A	// all
 	
+	git pull = git fetch + git merge
+	git checkout -b latest
+	
+	git commit
+		vim save :wq
+	
+	git push --set-upstream origin latest
+		
+	
 Test: 
-Read: https://journal.artfuldev.com/write-tests-for-typescript-projects-with-mocha-and-chai-in-typescript-86e053bdb2b6
+	https://journal.artfuldev.com/write-tests-for-typescript-projects-with-mocha-and-chai-in-typescript-86e053bdb2b6
 
 	One-time:
 		npm install -g ts-node
